@@ -1,7 +1,6 @@
 package com.yuntian.web;
 
 import com.yuntian.spring.config.RootConfig;
-import com.yuntian.spring.config.WebConfig;
 import com.yuntian.spring.repository.UserRepository;
 
 import org.junit.Test;
