@@ -3,6 +3,7 @@ package com.yuntian.spring.web;
 import com.yuntian.spring.base.Result;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
@@ -23,4 +24,11 @@ public class HelloWorldController {
         result.setMsg("成功");
         return result;
     }
+
+    @RequestMapping("/showMessage")
+    public String showMessage(Model model) {
+        model.addAttribute("message", "Hello World!");
+        return "showMessage";
+    }
+
 }
