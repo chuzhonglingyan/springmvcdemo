@@ -124,7 +124,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.12</version>
+            <version>4.13.1</version>
             <scope>compile</scope>
             <!-- 防止将依赖传递到其他模块中 -->
             <optional>true</optional>
